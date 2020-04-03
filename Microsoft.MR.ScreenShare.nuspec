@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>Microsoft</authors>
+    <id>Microsoft.MR.ScreenShare</id>
+    <title />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Full unity package including dlls</description>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Microsoft.MR.WebRTC.Unity" version="1.0.0" />
+      <dependency id="Microsoft.MixedReality.QR" version="[1,2)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="unity\Assets\Microsoft.MR.ScreenShare\**" target="" />
+  </files>
+</package>

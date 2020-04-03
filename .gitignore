@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/unity/Library
+/unity/obj
+/unity/Temp
+/unity/UWP
+/packages
